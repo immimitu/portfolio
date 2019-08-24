@@ -1,4 +1,25 @@
 @charset "UTF-8";
+
+/**********GENERAL STYLING**********/
+body {
+	color: #30323D;
+	font-family: "josefin sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+h3 {
+	padding-bottom: 20px;
+}
+
+p {
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 16px;
+}
+
+/**********NAVIGATION BAR**********/
 .nav-bg {
 	background-color: #F3E9DC;
 }
@@ -20,20 +41,11 @@
 }
 
 .custom-toggler .navbar-toggler-icon {
-
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(202,136,75, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 
 }
 
-
-body {
-	color: #30323D;
-	font-family: josefin-sans, sans-serif;
-	font-style: normal;
-	font-weight: 400;
-}
-
-
+/**********HERO**********/
 .hero {
 	background-color: #F3E9DC;
 	padding-top: 100px;
@@ -43,14 +55,9 @@ body {
 .work {
 	background-color: #F3E9DC;
 	padding-top: 100px;
-	padding-bottom: 30px;
+	padding-bottom: 100px;
 	color: #30323D;
 }
-/*works image hover effect*/
-/*.work-container {
-  position: relative;
-  width: 50%;
-}*/
 
 .work-container:hover .work-image {
   opacity: 0.3;
@@ -88,6 +95,20 @@ body {
 }
 
 
+/**********ABOUT**********/
+
+.about-image {
+	border: solid 10px #82BBB5;
+}
+
+.about-description {
+	font-size: 18px;
+}
+
+.about-description-container {
+	padding-top: 80px;
+}
+
 
 /**********CONTACT**********/
 .contact {
@@ -95,23 +116,6 @@ body {
 	padding-top: 30px;
 	padding-bottom: 80px;
 	color: #30323D;
-}
-
-.footer {
-	background-color: #30323D; 
-	color: #F3E9DC;
-}
-
-h3 {
-	padding-bottom: 20px;
-}
-
-p {
-	font-family: montserrat, sans-serif;
-	font-style: normal;
-	font-weight: 100;
-	font-size: 12px;
-	margin-top: 10px;
 }
 
 .btn {
@@ -135,7 +139,6 @@ p {
 	box-shadow: 2px 2px 5px #888888;
 }
 
-
 i {
 	margin:20px 10px 0 10px;
 	color: #F3E9DC;
@@ -145,11 +148,21 @@ i:hover {
 	color: #CA884B;
 }
 
+/**********FOOTER**********/
+.footer {
+	background-color: #30323D; 
+	color: #F3E9DC;
+}
+
+.copyright {
+	font-size: 12px;
+	margin-top: 10px;
+}
 
 /**********MEDIA QUERY**********/
 
 @media screen and (min-width:768px){
-h1 {
-	font-size: 50px;
-}
+	h1 {
+		font-size: 50px;
+	}
 }
